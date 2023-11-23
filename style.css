@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap');
+
+
+/***************************************** CONFIGURATION GENERAL  *****************************************/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto Serif', serif;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+
+#map {height: 100vh;
+    width: 100vw;}
+
+
+input, label {
+    cursor: pointer;
+}
+label {
+    transition: all .3s ease;
+    color: rgb(22, 22, 22);
+}
+label:hover {
+    font-weight: bold;
+    color: black;
+}
+h1 {
+    text-align: center;
+    font-size: 1.2rem;
+}
+h2 {
+    font-size: 1.1rem;
+}
+
+
+
+/***************************************** SECTION FILTRES ET INFOS  *****************************************/
+.overlay-map {
+    position: absolute;
+    display: none;
+    right: 20px;
+    z-index: 1000;
+    font-size: 0.8rem;  
+    background: whitesmoke;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.3)
+}
+
+
+
+.filter-container {
+    top: 20px;
+}
+
+.checkbox {
+    font-size: 1.1rem;
+}
+
+#infos {
+    display:none;
+    top: 230px;
+    max-width: 600px;
+    min-width: 250px;
+    padding: 15px;
+    max-height: 300px;
+    overflow-y: scroll;
+    font-size: 1rem;
+}
+
+
+#infos p{
+    padding: 0.6rem 0;
+    border-bottom: 1px solid grey;
+}
+
+
+
+#infos p:hover {
+    background-color: rgba(0, 0, 0, 0.171);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.icone-close:hover {
+    cursor: pointer;
+}
+
+.icone-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 18px;
+    z-index: 1000000000;
+    border: none;
+}
+
+.title-infos {
+    text-decoration: underline;
+    font-size: 1.1rem;
+}
+
+.span-important {
+    color: red;
+}
+
+
+/***************************************** GARES  *****************************************/
+.gare-title {
+    font-size: 1.2rem;
+    text-decoration: underline;
+    color: red;
+}
+
+.gare-subtitle {
+    font-size: 1.1rem;
+    margin: 0.6rem 0;
+    border-bottom: 3px solid grey;
+}
+
+
+.arretLaRochelle {
+    font-weight: bold;
+    color: red;
+}
+
+
+/***************************************** POPUP  *****************************************/
+.popupbtn, .centrer-btn{
+    padding: 0.3rem 0.6rem;
+    border-radius: 3px;
+    box-shadow: 2px 2px 1px rgba(0,0,0,0.2);
+    cursor: pointer;
+    margin: 0.2rem 0;
+    transition: .3s ease;
+    background-color: whitesmoke;
+}
+
+.popupbtn:hover {
+    background-color: rgb(0,0,0,0.4);
+}
+
+.centrer-btn {
+    margin-top: 0.8rem;
+    font-size: 0.9rem;
+    font-family: inherit;
+    transition: all .3s ease
+}
+
+
+.centrer-btn:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px 2px rgba(0,0,0,0.4);
+    font-weight: bold;
+    
+}
+
+
+
+/***************************************** TOASTS NOTIFS  *****************************************/
+#toasts {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 1000;
+}
+
+.toast {
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    margin: 0.5rem;
+    color: WHITE;
+}
+
+
+
+
+
+
+/***************************************** A PARTIR DES TABLETTES  *****************************************/
+@media screen and (max-width: 700px) {
+    h1 {
+        font-size: 1.0rem;
+    }
+    h2 {
+        font-size: 0.8rem;
+    }
+    .overlay-map {
+        padding: 7px;
+        right: 5px;
+    }
+    .checkbox {
+        font-size: 0.8rem;
+    }
+    .toast {
+        padding: 0.7rem 1.4rem;
+        margin: 0.3rem;
+        font-size: 0.7rem;
+    }
+    #infos {
+        top: 180px;
+        font-size: 0.7rem;
+        right: 5px;
+        min-width: 80px;
+       
+    }
+    .icone-close {
+        top: 3px;
+        right: 5px;
+    }
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/iconmap.png">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+    integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
+    crossorigin=""/>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/dffb5bc681.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+    integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
+    crossorigin=""></script>
+    <script src="index.js" defer></script>
+    <title>Mobilité Alternative</title>
+</head>
+<body>
+    <div id="toasts">
+
+    </div>
+    
+        
+        <div class="filter-container overlay-map" id="overlay">
+                <div id="filtres">
+                    <h1>Mobilité Alternative</h1>
+                    <h2>Choisissez ce que vous voulez afficher:</h2>
+                    <div class="checkbox">
+                      <input type="checkbox" id="velo-filtre" name="velo-filtre">
+                      <label for="velo-filtre">Stations de vélos</label>
+                    </div>
+                    <div class="checkbox">
+                      <input type="checkbox" id="bus-filtre" name="bus-filtre">
+                      <label for="bus-filtre">Arrêts de bus</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="gare-filtre" name="gare-filtre">
+                        <label for="gare-filtre">Gares SNCF</label>
+                    </div>
+                    <button id="centrerMap" class="centrer-btn">Recentrer la carte</button>
+                </div>            
+        </div>
+        <div class="overlay-map" id="infos">
+            
+        </div>
+    <main id="map">
+
+    </main>
+
+</body>
+</html>
