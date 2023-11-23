@@ -17,44 +17,56 @@ Ainsi, grace à notre web app, l'utilisateur pourra :
 
 ### 1. Géolocalisation de l'utilisateur
 
-[geoloc](./images/doc-image/utilisateur1.PNG)
-[geoloc](./images/doc-image/utilisateur2.PNG)
+<img width="311" alt="utilisateur1" src="https://github.com/rkaawkaa/Mobilit--La-Rochelle/assets/88223901/c1367990-9445-4dda-944f-3aa9822c8898"><br><br>
+<img width="206" alt="utilisateur2" src="https://github.com/rkaawkaa/Mobilit--La-Rochelle/assets/88223901/1f22a8c7-4780-41c7-9835-fa916db585c4">
+
 
 ### 2. Affichage des stations de vélos et des informations
 
 Comme pour les arrêts de bus, les stations de vélos proches de l'utilisateur sont affichés en plus grand sur la carte pour une meilleure expérience.<br><br>
-[station de velo](./images/doc-image/velo1.PNG)<br>
-[popup velo](./images/doc-image/velo2.PNG)<br>
+<img width="399" alt="velo1" src="https://github.com/rkaawkaa/Mobilit--La-Rochelle/assets/88223901/a2a9f4ec-e087-4a42-952f-769d83eaea63"><br><br>
+<img width="194" alt="velo2" src="https://github.com/rkaawkaa/Mobilit--La-Rochelle/assets/88223901/f313806a-d75c-4e0a-b04d-c4fcf054daf1"><br>
+
 
 
 ### 3. Affichage des arrêts de bus et des horaires
 
-[arret bus](./images/doc-image/bus1.PNG)<br>
-[affichage arrêts](./images/doc-image/bus2.PNG)<br>
-[affichage arrêts](./images/doc-image/bus3.PNG)<br>
+<img width="367" alt="bus1" src="https://github.com/rkaawkaa/Mobilit--La-Rochelle/assets/88223901/3f06dac1-28e3-4a09-a880-403ad2de3db3">
+<br><br>
+<img width="515" alt="bus2" src="https://github.com/rkaawkaa/Mobilit--La-Rochelle/assets/88223901/2acc2a78-3d83-43c7-b478-e5c861eafd0f">
+<br><br>
+<img width="458" alt="bus3" src="https://github.com/rkaawkaa/Mobilit--La-Rochelle/assets/88223901/6afa19ab-4091-4cf8-97bf-8afd7f3ea1e2">
+<br>
 <br>
 Pour chaque informations, il y'a possibilité de fermer la fenêtre : <br>
-[popupclose](./images/doc-image/pop1.PNG)<br>
+<img width="284" alt="pop1" src="https://github.com/rkaawkaa/Mobilit--La-Rochelle/assets/88223901/c9d2eaab-199f-4051-a22f-841f7df5ac1e">
+<br>
 
 ### 4. Affichage des gares et des départs
 
 Pour la gare de la Rochelle: <br>
-[gare La Rochelle](./images/doc-image/gare1.PNG)<br>
+<img width="211" alt="gare1" src="https://github.com/rkaawkaa/Mobilit--La-Rochelle/assets/88223901/3a835b88-e575-492f-b514-250eddcb89db">
+<br><br>
 [train vers Poitiers](./images/doc-image/trainPoitiers.PNG)<br>
-[trajet vers Poitiers](./images/doc-image/trajetPoitiers.PNG)<br><br>
+<img width="218" alt="trainPoitiers" src="https://github.com/rkaawkaa/Mobilit--La-Rochelle/assets/88223901/28a0fb97-06af-41ba-931d-6b93026e20ab">
+<br><br>
 Pour la gare de Porte Dauphine : <br>
-[gare Porte Dauphine](./images/doc-image/gare2.PNG)<br>
-[train Saintes](./images/doc-image/trainSaintes.PNG)<br>
+<img width="226" alt="gare2" src="https://github.com/rkaawkaa/Mobilit--La-Rochelle/assets/88223901/f5d5d75f-165b-4b9e-8b5a-dfb04566dc50">
+<br><br>
+<img width="288" alt="trainSaintes" src="https://github.com/rkaawkaa/Mobilit--La-Rochelle/assets/88223901/c6beb493-399c-4c1a-a3d1-7a28068ebde5">
+<br><br>
 
 Pour une meilleure lisibilité, la gare de départ (Porte Dauphine ou La Rochelle) est mise en rouge dans la liste des arrêts pour le trajet.
 
 ### 5. Toasts notifications et responsiveness
 
 Pour une bonne expérience, le site s'adapte aux différents terminaux. <br>
-[responsive](./images/doc-image/responsive1.png)<br>
+<img width="290" alt="responsive1" src="https://github.com/rkaawkaa/Mobilit--La-Rochelle/assets/88223901/d6951328-62f0-4e45-8e94-6eb43fcef039">
+<br>
 <br>
 Des notifications sont envoyés à l'utilisateur à la suite de certains de ses actions :<br>
-[toast](./images/doc-image/toast1.png)
+<img width="353" alt="toast1" src="https://github.com/rkaawkaa/Mobilit--La-Rochelle/assets/88223901/c51f8055-664f-4882-93ef-c48f48b3016f">.
+
 
 ## 3. Conclusion et futur de l'application
 
