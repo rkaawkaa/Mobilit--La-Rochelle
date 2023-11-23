@@ -1,8 +1,9 @@
 # Documentation Projet Mobilité Alternative
 
 *Par KAWKA Robin &  HURDEBOURCQ Romain*
-
-Vous pouvez trouver ce site sur le lien suivant : ** https://mobilite-la-rochelle.netlify.app/ **
+<br>
+Vous pouvez trouver ce site sur le lien suivant : **https://mobilite-la-rochelle.netlify.app/**<br>
+**Remarque : Le site fait des appels API sur les sites de La Rochelle uniquement. Il ne fonctionne donc que si vous vous localisez à La Rochelle ou bien si vous y allez via la carte manuellement.**
 
 ## 1. Introduction
 
